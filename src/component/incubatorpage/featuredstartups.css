@@ -129,6 +129,9 @@
     color: #FFFFFF;
 
 }
+.mangoswap-button-blue:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .mangoswap-button-white {
     background: #FFFFFF;
     border-radius: 4px;
@@ -136,6 +139,9 @@
     margin-left: 0.4rem;
     cursor: pointer;
     color: #141471;
+}
+.mangoswap-button-white:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .advice-image {
     width: 20rem;
@@ -152,6 +158,9 @@
     background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
 }
+.advice-image-button-join:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .advice-image-button-advice{
     position: relative;
     top: -8rem;
@@ -160,7 +169,11 @@
     border: #FFFFFF solid 1px;
     padding: 0.9rem;
     background-color: rgba(0, 0, 0, 0);
+    
     cursor: pointer;
+}
+.advice-image-button-advice:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .advice-image-button-help {
     position: relative;
@@ -172,6 +185,9 @@
     background-color: rgba(0, 0, 0, 0);
     cursor: pointer; 
 }
+.advice-image-button-help:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
 .incubator-load-more-button {
     padding: 0.9rem 4rem;
     margin: 2rem 0 4rem 33rem;
@@ -179,4 +195,10 @@
     border: #FFFFFF solid 1px;
     cursor: pointer;
     color: #FFFFFF;
+}
+
+.incubator-load-more-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
 }
