@@ -1,0 +1,80 @@
+.mangoswap-content {
+    background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+    padding-top: 2rem;
+    padding-left: 13rem;
+}
+.mangoswap-header-content {
+    background: #FFFFFF;
+    width: 80%;
+    height: 5rem;
+}
+.mangoswap-header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.mangoswap-logo {
+    margin-top: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.left-arrow-mangoswap {
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    padding: 1rem;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.mangoswap-fund-raised {
+    padding-bottom: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.mangoswap-horizontal-colo {
+    height: 0.7rem;
+    width: 9rem;
+    position: relative;
+    top: 0.7rem;
+    border-radius: 9px;
+    background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+}
+.mangoswap-horizontal-gray {
+    height: 0.7rem;
+    width: 9rem;
+    margin-left: 4rem;
+    border-radius: 9px;
+    background: #E0E0E0;
+}
+.mangoswap-header-h3 {
+    padding: 1rem;
+}
+.fund-mangoswap-button {
+    color: #FFFFFF;
+    margin-right: 0.9rem;
+    border: none;
+    border-radius: 7px;
+    padding: 0.6rem 2rem;
+    background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+}
+.mangoswap-body {
+    padding-top: 1rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 0.3fr 0.495fr;
+}
+.mangoswap-sidebar {
+    background: #FFFFFF;
+}
+.mangoswap-about {
+    background: #FFFFFF;
+    padding: 2rem;
+}
+.mangoswap-p {
+    font-size: 0.8rem;
+}
+.mangoswap-h3 {
+    padding-top: 1rem;
+}
