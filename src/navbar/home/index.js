@@ -1,5 +1,6 @@
 import React from 'react'
 import './navbar.css'
+import {Link} from 'react-router-dom'
 import Logo from '../../asset/logo.png'
 
 const Header = () => {
@@ -16,16 +17,25 @@ const Header = () => {
             </div>
             <div className="logo-fontawsome">
                 <ul className="navbar-list">
-                    <li>Home</li>
-                    <li>Start Up</li>
-                    <li>Loan</li>
+                    <li><Link className="navbar-link" to="/incubator">Home</Link></li>
+                    <li><Link className="navbar-link" to="/mangoswap">Start Up</Link></li>
+                    <li><Link className="navbar-link" to="/learn">Loan</Link></li>
                 </ul>
-                <span className="navbar-font-search">
-                    <i class="fas fa-search navbar-font-search-content"></i>
-                </span>
+            </div>
+            <div class="searchBox">
+                <input className="searchInput"type="text" name="" placeholder="Search"/>
+                <button className="searchButton" href="#">
+                    <i class="fas fa-search"></i>
+                </button>
             </div>
         </div>
     )
 }
 
 export default Header
+
+
+
+
+
+

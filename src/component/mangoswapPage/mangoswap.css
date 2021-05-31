@@ -2,6 +2,7 @@
     background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
     padding-top: 2rem;
     padding-left: 13rem;
+    padding-bottom: 5rem;
 }
 .mangoswap-header-content {
     padding: 0.9rem;
@@ -103,15 +104,66 @@
     font-weight: 600;
 }
 .mangoswap-sidebar-contact {
-    padding: 2rem;
+    padding: 0.5rem 2rem;
 }
 .mangoswap-sidebar-contact p{
-    padding-top: 0.4rem;
     color: #003CD8;
     cursor: pointer;
+}
+.mangoswap-sidebar-contact small{ 
+    font-size: 0.65rem;
 }
 .mangoswap-fontawsome {
     padding: 0.4rem;
     cursor: pointer;
     color: #003CD8;
+}
+.mangoswap-sidebar-space {
+    padding: 0.5rem 2rem;
+    font-weight: 500;
+}
+.mangoswap-sidebar-space small{ 
+    font-size: 0.65rem;
+    padding-bottom: 5.6rem;
+}
+.mangoswap-sidebar-space {
+    font-weight: 500;
+}
+.mangoswap-sidebar-info {
+    padding-bottom: 1.6rem;
+}
+.mangoswap-sidebar-name {
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+}
+.mangoswap-sidebar-name > p{
+    padding-bottom: 1.4rem;
+    padding-top: 0.9rem;
+}
+.mangoswap-sidebar-persons {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding-top: 0.5rem;
+}
+.mangoswap-sidebar-fontawsome-circlr {
+    font-size: 2.3rem;
+    padding-right: 0.5rem;
+    color:  #C4C4C4;
+}
+.mangoswap-sidebar-persons h4{
+    font-size: 0.75rem;
+    font-weight: 800;
+}
+.mangoswap-sidebar-persons p{
+    font-size: 0.7rem;
+    padding-top: 0.2rem;
+}
+.mangoswap-sidebar-button {
+    font-size: 0.6rem;
+    padding: 0.1rem;
+    margin-right: 0.5rem;
+    background: #FFFFFF;
+    border: #000000 1px solid;
+    border-radius: 0.2rem;
 }
