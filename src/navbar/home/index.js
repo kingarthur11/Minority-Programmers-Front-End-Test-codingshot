@@ -17,10 +17,23 @@ const Header = () => {
             </div>
             <div className="logo-fontawsome">
                 <ul className="navbar-list">
-                    <li><Link className="navbar-link" to="/incubator">Home</Link></li>
+                    <li><Link className="navbar-link" to="/">Home</Link></li>
                     <li><Link className="navbar-link" to="/mangoswap">Start Up</Link></li>
-                    <li><Link className="navbar-link" to="/learn">Loan</Link></li>
+                    <li className="display-navbar-dropdown">
+                        <Link className="navbar-link" to="/learn">Loan</Link>
+                        <ul className="navbar-dropdown">
+                            <li><Link className="navbar-link" to="/home">Course Module Part1</Link></li>
+                            <li><Link className="navbar-link" to="/service">Course Module Part2</Link></li>
+                            <li><Link className="navbar-link" to="/progress/home">Progress Part1</Link></li>
+                            <li><Link className="navbar-link" to="/progress/service">Progress Part2</Link></li>
+                            <li><Link className="navbar-link" to="/course/pause">Course Pause</Link></li>
+                            <li><Link className="navbar-link" to="/course/play">Cause Play</Link></li>
+                            <li><Link className="navbar-link" to="/course/completed/home">Complete Part1</Link></li>
+                            <li><Link className="navbar-link" to="/course/completed/service">Complete Part2</Link></li>
+                        </ul>
+                    </li>
                 </ul>
+                
             </div>
             <div class="searchBox">
                 <input className="searchInput"type="text" name="" placeholder="Search"/>

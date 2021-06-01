@@ -4,6 +4,7 @@
     display: flex;
     box-shadow: 0 8px 6rem -6rem black;
     position: sticky;
+    z-index: 1;
 }
 .navbar-list {
     list-style: none;
@@ -17,8 +18,7 @@
     font-weight: 600;   
 }
 .navbar-link:hover {
-    background: #cddafd;
-    padding: 1.3rem;
+    color: #a2d2ff;
 }
 .logo {
     width: 4.9rem;
@@ -69,7 +69,6 @@
     position: relative;
     bottom: 0.5rem;
 }
-
 .searchInput {
     border:none;
     background: none;
@@ -91,4 +90,28 @@
     width: 150px;
     padding: 0 6px;
 }
+}
+
+.navbar-dropdown {
+    list-style: none;
+}
+.navbar-dropdown {
+    display: none;
+    position: absolute;
+    right: 3rem;
+    top: 4.4rem;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 16px 16px;
+}
+.display-navbar-dropdown:hover .navbar-dropdown {
+    justify-content: space-around;
+    align-content: center;
+    position: absolute;
+    display: block;
+    font-size: 0.9rem;
+}
+.display-navbar-dropdown:hover .navbar-dropdown li {
+    padding: 0.9rem 0.9rem;
 }

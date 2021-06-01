@@ -25,7 +25,7 @@ function App() {
             <Route exact path="/course/completed/home"> <CourseCompleteBlue /></Route>
             <Route exact path="/course/completed/service"> <CourseCompleteWhite /></Route>
             <Route exact path="/learn"> <Learn /></Route>
-            <Route exact path="/incubator"> <Incubator /></Route>
+            <Route exact path="/"> <Incubator /></Route>
             <Route exact path="/mangoswap"> <Mangoswap /></Route>
         </Switch>
     </Router>
